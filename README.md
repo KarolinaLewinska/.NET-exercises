@@ -13,3 +13,5 @@
 2. Napisz przykładowy program, w którym zostaną wygenerowane dwa różne wyjątki (ArithmeticException, Exception). Wyświetl na ekranie dwa systemowe komunikaty.<br/>
 
 3. Napisz program, który pobierze od użytkownika tablice 10 liczb całkowitych. Przekaz tablicę do konstruktora, który posortuje tablicę metodą bąbelkową, i zwróci tablicę do metody main(). Wykorzystaj konstrukcję try – catch (np. przekroczenie zakresu tablicy).<br/>
+
+**Operacje wejścia i wyjścia**
