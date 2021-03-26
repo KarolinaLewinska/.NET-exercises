@@ -1,6 +1,6 @@
 # C# ćwiczenia
 
-**Pętle i tablice** <br/>
+**Pętle i tablice:** <br/>
 1. Napisz program wyświetlający w porządku malejącym liczby od 100 do 1 podzielne przez trzy, ale niepodzielne przez 2. Zadanie wykonaj za pomocą trzech rodzajów pętli (for, while, do..while). <br/>
 
 2. Utwórz tablicę liczb typu int zaprezentowaną poniżej. Wypełnij kolejne komórki wartościami malejącymi od 10 do 1. Do utworzenia tablicy i wypełnienia jej danymi wykorzystaj pętlę typu for. <br/>
