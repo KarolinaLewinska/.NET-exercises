@@ -48,7 +48,7 @@ namespace SortowanieBabelkowe
                 }
                 while (dlugoscTablicy > 1);
                 
-                Console.WriteLine("Liczby posortowane metodą bombelkową: ");
+                Console.WriteLine("Liczby posortowane metodą bąbelkową: ");
             }
             catch (IndexOutOfRangeException exc)
             {
