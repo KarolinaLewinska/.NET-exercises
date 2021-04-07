@@ -16,5 +16,17 @@
 
 **Operacje wejścia i wyjścia:**
 1. Napisz program, który będzie realizował tzw. szyfr Cezara (modyfikacja o 1) działający na znakach wprowadzanych bezpośrednio z klawiatury. Naciśnięcie klawisza odpowiadającego literze ma powodować pojawianie się litery o podany przez użytkownika kluczu. Możesz ograniczyć się do przekodowywania tylko małych liter z alfabetu łacińskiego. (q lub escape kończy działanie).<br/>
+
 2. Napisz program rozwiązujący równania kwadratowe, w którym parametry A, B i C będą wprowadzane przez użytkownika z klawiatury.<br/>
+
 3. Napisz program, który umożliwi użytkownikowi wprowadzenie wiersza tekstu zawierającego liczby całkowite oddzielone znakiem separatora (np. przecinkiem). Program powinien następnie wyświetlić liczy pierwsze.<br/>
+
+
+**Operacje na plikach:**
+1. Napisz  program, który w wierszu poleceń będzie przyjmował nazwę katalogu  oraz nazwę pliku, będzie tworzył katalog i plik, a w pliku umieści posortowaną tablicę 10elementową liczb całkowitych algorytmem quicksort, wartości tablicy pobierze z pliku.
+
+2. Napisz program usuwający plik lub katalog o nazwie przekazanej z wiersza poleceń. Program powinien zapytać użytkownika o potwierdzenie chęci wykonania tej operacji. 
+
+3. Napisz program wyświetlający sumaryczną wielkość plików zawartych w katalogu o nazwie przekazanej z wiersza poleceń.
+
+4. Napisz program, obliczający przybliżoną wartość liczby PI z wykorzystaniem metody Monte Carlo, a następnie uzyskaną wartość zapisać do dowolnego pliku.
