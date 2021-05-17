@@ -30,3 +30,7 @@
 3. Napisz program wyświetlający sumaryczną wielkość plików zawartych w katalogu o nazwie przekazanej z wiersza poleceń.
 
 4. Napisz program, obliczający przybliżoną wartość liczby PI z wykorzystaniem metody Monte Carlo, a następnie uzyskaną wartość zapisać do dowolnego pliku.
+
+**Interfejsy, typy uogólnione:**
+1. Napisz klasę która dziedziczy z interfejsu (który zawiera opis właściwości dwóch liczb oraz definicję metody NWW). Następnie w nowej klasie (metodzie main()) zaimplementuj algorytm NWW.
+
