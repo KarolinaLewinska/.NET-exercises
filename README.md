@@ -33,4 +33,5 @@
 
 **Interfejsy, typy uogólnione:**
 1. Napisz klasę która dziedziczy z interfejsu (który zawiera opis właściwości dwóch liczb oraz definicję metody NWW). Następnie w nowej klasie (metodzie main()) zaimplementuj algorytm NWW.
+2. Sortowanie przez wstawianie z dynamicznym powiększaniem się tablicy.
 
