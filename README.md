@@ -1,11 +1,11 @@
-# C# ćwiczenia
+# Console Apps
 
-**Pętle i tablice:** <br/>
-1. Napisz program wyświetlający w porządku malejącym liczby od 100 do 1 podzielne przez trzy, ale niepodzielne przez 2. Zadanie wykonaj za pomocą trzech rodzajów pętli (for, while, do..while). <br/>
+**Loops and tables:** <br/>
+1. Write program which selects numbers from 100 to 1 in descending order. They must be divisible by 3, but indivisible by 2. Use 3 types of loops (for, while, do..while). <br/>
 
-2. Utwórz tablicę liczb typu int zaprezentowaną poniżej. Wypełnij kolejne komórki wartościami malejącymi od 10 do 1. Do utworzenia tablicy i wypełnienia jej danymi wykorzystaj pętlę typu for. <br/>
+2. Create an int table and fill it with decreasing values from 10 to 1. In order to make it use for loop. <br/>
 
-3. Utwórz tablicę dwuwymiarową, w której liczba komórek w kolejnych rzędach będzie równa dziesięciu kolejnym wartościom ciągu Fibonacciego, poczynając od elementu o wartości 1 (1, 1, 2, 3, 5 itd.). Wartość każdej komórki powinna być jej numerem w danym wierszu w kolejności malejącej (czyli dla wiersza o długości pięciu komórek kolejne wartości to 5, 4, 3, 2, 1). Zawartość tablicy wyświetl na ekranie.<br/>
+3. Create a two-dimensional table where values come from the Fibonacci sequence and display it.<br/>
 
 **Przeciążanie konstruktorów, wyjątki:** <br/>
 1. Napisz klasę zawierającą dwa pola: pierwsze typu double i drugie typu char(np. liczba i znak). Dopisz pięć przeciążonych konstruktorów: pierwszy przyjmujący jeden argument typu double, drugi przyjmujący jeden argument typu char, trzeci przyjmujący dwa argumenty — pierwszy typu double, drugi typu char — i czwarty przyjmujący również dwa argumenty typu typu double. Czwarty konstruktor niech liczy NWD Euklidesa. Piąty konstruktor (przyjmuje tablice int) Sito Erastotenesa – liczby pierwsze. Użyj  słowo kluczowe this. Wywołaj konstruktory w metodzie main(), wypisz stan zmiennych każdego konstruktora.<br/>
