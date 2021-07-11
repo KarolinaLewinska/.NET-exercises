@@ -1,7 +1,7 @@
 # Console Apps
 
 **Loops and tables:** <br/>
-**Divisible.cs** - write a program which selects numbers from 100 to 1 in descending order. They must be divisible by 3, but indivisible by 2. Use 3 types of loops (for, while, do..while). <br/>
+-**Divisible.cs** - write a program which selects numbers from 100 to 1 in descending order. They must be divisible by 3, but indivisible by 2. Use 3 types of loops (for, while, do..while). <br/>
 **Table.cs** - create an int table and fill it with decreasing values from 10 to 1. In order to make it use for loop. <br/>
 **FibonacciTable.cs** - create a two-dimensional table where values come from the Fibonacci sequence and display it.<br/>
 
