@@ -10,12 +10,10 @@
 - **Exceptions.cs** - write a program where will be selected 2 different exceptions (for exaample ArithmeticException and Exception).<br/>
 - **BubbleSort.cs** - write a program which takes from an user table with 10 integer numbers.Convey it to constructor which will sort it by bubble method and return it to the main method. Use try-catch to capture exceptions (for instance IndexOutOfRangeException).<br/>
 
-**Operacje wejścia i wyjścia:**
-1. Napisz program, który będzie realizował tzw. szyfr Cezara (modyfikacja o 1) działający na znakach wprowadzanych bezpośrednio z klawiatury. Naciśnięcie klawisza odpowiadającego literze ma powodować pojawianie się litery o podany przez użytkownika kluczu. Możesz ograniczyć się do przekodowywania tylko małych liter z alfabetu łacińskiego. (q lub escape kończy działanie).<br/>
-
-2. Napisz program rozwiązujący równania kwadratowe, w którym parametry A, B i C będą wprowadzane przez użytkownika z klawiatury.<br/>
-
-3. Napisz program, który umożliwi użytkownikowi wprowadzenie wiersza tekstu zawierającego liczby całkowite oddzielone znakiem separatora (np. przecinkiem). Program powinien następnie wyświetlić liczy pierwsze.<br/>
+**Input and output:**
+- **CaesarCipher.cs** - write a program which contains Caesar's cipher (modification by 1). It must cipher characters clicked directly from a keyboard.<br/>
+- **QuadraticEquation.cs** - write a program which resolves quadratic equation. Parameters must come from an user's input.<br/>
+- **PrimeNumbers.cs** - write a program which lets an user type numbers separated by a comma and displays only prime numbers from them.<br/>
 
 
 **Operacje na plikach:**
