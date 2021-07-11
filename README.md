@@ -18,7 +18,7 @@
 
 **File Operations:**
 - **Quicksort.cs** - write a program which creates a directory and a file (names come from an user's input). In the file it puts a table of 10 integer's numbers sorted by the quicksort algorithm.<br/>
-- **DeleteFileOrDirectory.cs** - write a program which delets a file or a directory (name come from an user's input). Program must ask the user about confirmation of executing <br/> 
+- **DeleteFileOrDirectory.cs** - write a program which delets a file or a directory (name come from an user's input). Program must ask the user about confirmation of executing. <br/> 
 - **SizeOfFiles.cs** - write a program which displays total size of files from a directiory (name come from an user's input).<br/>
 - **PiMonteCarlo.cs** - write a program which counts an estimated value of PI using Monte Carlo method. Save the value to a file.<br/>
 
