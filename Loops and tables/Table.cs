@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Zad2
+namespace Table
 {
     class Program
     {

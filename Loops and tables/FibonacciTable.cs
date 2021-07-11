@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Zad3
+namespace FibonacciTable
 {
 	class Program
 	{
