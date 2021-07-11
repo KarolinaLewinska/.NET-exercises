@@ -6,108 +6,108 @@ namespace ConstructorsOverloading
     {
         static void Main(string[] args)
         {
-            int[] tablicaLiczb = new int[100];
+            int[] table = new int[100];
 
-            Konstruktory obiekt1 = new Konstruktory(2.24);
-            Konstruktory obiekt2 = new Konstruktory('K');
-            Konstruktory obiekt3 = new Konstruktory(4.1, 'L');
-            Konstruktory obiekt4 = new Konstruktory(12, 6);
-            Konstruktory obiekt5 = new Konstruktory(tablicaLiczb);
+            Overload overload = new Overload(2.24);
+            Overload overload2 = new Overload('K');
+            Overload overload3 = new Overload(4.1, 'L');
+            Overload overload4 = new Overload(12, 6);
+            Overload overload5 = new Overload(table);
 
-            obiekt1.wypiszWartoscLiczby();
-            obiekt2.wypiszWartoscZnaku();
-            obiekt3.wypiszWartoscLiczbyOrazZnaku();
-            obiekt4.wypiszNWDLiczb();
-            obiekt5.wypiszLiczbyPierwszeSito();  
+            overload.displayValueOfNumber();
+            overload2.displayValueOfChar();
+            overload3.displayValueOfNumberAndChar();
+            overload4.displayNWD();
+            overload5.displaySito();  
         }
     }
 
-    class Konstruktory
+    public class Overload
     {
-        double liczba;
-        int[] tablica;
-        char znak;
+        double number;
+        int[] table;
+        char character;
 
-        public Konstruktory(double liczba)
+        public Overload(double number)
         {
-            this.liczba = liczba;
+            this.number = number;
         }
 
-        public Konstruktory(char znak)
+        public Overload(char character)
         {
-            this.znak = znak;
+            this.character = character;
         }
 
-        public Konstruktory(double liczba, char znak)
+        public Overload(double number, char character)
         {
-            this.liczba = liczba;
-            this.znak = znak;
+            this.number = number;
+            this.character = character;
         }
 
-        public Konstruktory(double liczba, double liczba2)
+        public Overload(double firstNumber, double secondNumber)
         {
-            this.liczba = liczba;
+            this.number = firstNumber;
 
-            while (liczba != liczba2)
+            while (firstNumber != secondNumber)
             {
-                if (liczba > liczba2)
-                    liczba -= liczba2;
+                if (firstNumber > secondNumber)
+                    firstNumber -= secondNumber;
                 else
-                    liczba2 -= liczba;
+                    secondNumber -= firstNumber;
             }
         }
 
-        public Konstruktory(int[]tablicaLiczb)
+        public Overload(int[] table)
         {
-            this.tablica = tablicaLiczb;
+            this.table = table;
 
-            int maxZakresLiczbPierwszych = 20;
-            int pierwiastekZakresu = (int)Math.Floor(Math.Sqrt(maxZakresLiczbPierwszych));
+            int maxRangeOfPrimeNumbersh = 20;
+            int rootOfRange = (int) Math.Floor(Math.Sqrt(maxRangeOfPrimeNumbersh));
 
-            for (int i = 1; i <= maxZakresLiczbPierwszych; i++)
+            for (int i = 1; i <= maxRangeOfPrimeNumbersh; i++)
             {
-                tablica[i] = i;
+                table[i] = i;
             }
 
-            for (int i = 2; i <= pierwiastekZakresu; i++)
+            for (int i = 2; i <= rootOfRange; i++)
             {
-                if (tablica[i] != 0)
+                if (table[i] != 0)
                 {
                     int j = i + i;
-                    while (j <= maxZakresLiczbPierwszych)
+                    while (j <= maxRangeOfPrimeNumbersh)
                     {
-                        tablica[j] = 0;
+                        table[j] = 0;
                         j += i;
                     }
                 }
             }
         }
 
-        public void wypiszWartoscLiczby()
+        public void displayValueOfNumber()
         {
-            Console.WriteLine(liczba);
+            Console.WriteLine(number);
         }
 
-        public void wypiszWartoscZnaku()
+        public void displayValueOfChar()
         {
-            Console.WriteLine(znak);
+            Console.WriteLine(character);
         }
 
-        public void wypiszWartoscLiczbyOrazZnaku()
+        public void displayValueOfNumberAndChar()
         {
-            Console.WriteLine(liczba + " " + znak);
+            Console.WriteLine(number + " " + character);
         }
 
-        public void wypiszNWDLiczb()
+        public void displayNWD()
         {
-            Console.WriteLine("NWD liczb to: " + liczba);
+            Console.WriteLine("NWD equals: " + number);
         }
 
-        public void wypiszLiczbyPierwszeSito()
+        public void displaySito()
         {
-            Console.WriteLine("Liczby pierwsze z zakresu:");
+            Console.WriteLine("Sito equals:");
             for (int i = 2; i <= 10; i++)
-                if (tablica[i] != 0)
+                if (table[i] != 0)
                     Console.WriteLine(i + ", ");
         }
     }

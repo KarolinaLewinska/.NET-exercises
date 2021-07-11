@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Wyjątki
+namespace Exceptions
 {
     class Program
     {
@@ -14,14 +14,14 @@ namespace Wyjątki
                     int y = 0;
                     int z = x / y;
                 }
-                catch (ArithmeticException e)
+                catch (ArithmeticException exc)
                 {
-                    throw new ArithmeticException("Dzielenie przez zero niedozwolone!", e);
+                    throw new ArithmeticException("Dividing by zero is forbidden", exc);
                 }
             }
-            catch(Exception exc)
+            catch (Exception exc)
             {
-                throw new Exception("Wyjątek systemowy!", exc);
+                throw new Exception("System Exception", exc);
             }
         }
     }
