@@ -16,7 +16,7 @@
 - **PrimeNumbers.cs** - write a program which lets an user type numbers separated by a comma and displays only prime numbers from them.<br/>
 
 
-**File Operations:**
+**Operations on Files:**
 - **Quicksort.cs** - write a program which creates a directory and a file (names come from an user's input). In the file it puts a table of 10 integer's numbers sorted by the quicksort algorithm.<br/>
 - **DeleteFileOrDirectory.cs** - write a program which delets a file or a directory (name come from an user's input). Program must ask the user about confirmation of executing. <br/> 
 - **SizeOfFiles.cs** - write a program which displays total size of files from a directiory (name come from an user's input).<br/>
