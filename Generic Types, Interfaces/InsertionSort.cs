@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace InsertSort
+namespace InsertionSort
 {
     public class Program
     {
