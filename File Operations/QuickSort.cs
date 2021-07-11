@@ -10,11 +10,11 @@ namespace FileWithQuickSort
         {
             string mainPath = @"C:\Users\lewin\AppData\Local\Temp\";
 
-            Console.WriteLine("Podaj nazwę katalogu do utworzenia");
+            Console.WriteLine("Write name of directory");
             string directoryName = Console.ReadLine();
             string directoryPath = mainPath + directoryName;
 
-            Console.WriteLine("Podaj nazwę pliku do utworzenia");
+            Console.WriteLine("Write name of file");
             string fileName = Console.ReadLine();
             string filePath = mainPath + fileName;
             
@@ -23,32 +23,32 @@ namespace FileWithQuickSort
                 DirectoryInfo di = Directory.CreateDirectory(directoryPath);
                 FileInfo fi = new FileInfo(filePath);
                 FileStream fileStream = fi.Create();
-                Byte[] fileNumbers =
+                Byte[] numbersToWrite =
                     new UTF8Encoding(true).GetBytes("12,333,55,1,5,76,9,54,23,64");
-                fileStream.Write(fileNumbers, 0, fileNumbers.Length);
+                fileStream.Write(numbersToWrite, 0, numbersToWrite.Length);
                 fileStream.Close();
 
                 TextReader textReader = new StreamReader(filePath);
                 string fileReader = textReader.ReadLine();
-                string readText = File.ReadAllText(filePath);
-                string[] textFromFile = readText.Split(",");
+                string allTextReader = File.ReadAllText(filePath);
+                string[] splittedNumbers = allTextReader.Split(",");
 
-                int[] numbersFromFile = new int[textFromFile.Length];
-                for (int i = 0; i < textFromFile.Length; i++)
+                int[] tableWithNumbers = new int[splittedNumbers.Length];
+                for (int i = 0; i < splittedNumbers.Length; i++)
                 {
-                    numbersFromFile[i] = Convert.ToInt32(textFromFile[i]);
+                    tableWithNumbers[i] = Convert.ToInt32(splittedNumbers[i]);
                 }
                
-                QuickSort(numbersFromFile, 0, numbersFromFile.Length-1);
-                string[] sortedNumbers = new string[numbersFromFile.Length];
+                QuickSort(tableWithNumbers, 0, tableWithNumbers.Length-1);
+                string[] sortedNumbers = new string[tableWithNumbers.Length];
 
-                for (int i = 0; i < numbersFromFile.Length; i++)
+                for (int i = 0; i < tableWithNumbers.Length; i++)
                 {
-                    sortedNumbers[i] = Convert.ToString(numbersFromFile[i]);
+                    sortedNumbers[i] = Convert.ToString(tableWithNumbers[i]);
                 }
 
-                string st = string.Join(" ", sortedNumbers);
-                Console.WriteLine(st);
+                string stringOfNumbers = string.Join(" ", sortedNumbers);
+                Console.WriteLine(stringOfNumbers);
             }
             catch (Exception exc)
             {

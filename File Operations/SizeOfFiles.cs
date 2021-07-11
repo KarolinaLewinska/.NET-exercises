@@ -11,7 +11,7 @@ namespace SizeOfFiles
             string userPath;
             long size = 0;
 
-            Console.WriteLine("Podaj ścieżkę do katalogu");
+            Console.WriteLine("Write the path of directory");
             userPath = Console.ReadLine();
             di = new DirectoryInfo(userPath);
             
