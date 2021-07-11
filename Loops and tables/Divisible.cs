@@ -6,37 +6,37 @@ namespace Divisible
     {
         static void Main(string[] args)
         {
-            int liczba = 100;
-            int licznik = 100;
+            int number = 100;
+            int counter = 100;
 
             for (int i = 100; i >= 1; i--)
             {
                 if (i % 3 == 0 && !(i % 2 == 0))
                 {
-                    liczba = i;
-                    Console.WriteLine(liczba);
+                    number = i;
+                    Console.WriteLine(number);
                 }
             }
 
-            while (licznik >= 1)
+            while (counter >= 1)
             {
-                licznik--;
-                if (licznik % 3 == 0 && !(licznik % 2 == 0))
+                counter--;
+                if (counter % 3 == 0 && !(counter % 2 == 0))
                 {
-                    liczba = licznik;
-                    Console.WriteLine(liczba);
+                    number = counter;
+                    Console.WriteLine(number);
                 }
             }
 
             do
             {
-                if (licznik % 3 == 0 && !(licznik % 2 == 0))
+                if (counter % 3 == 0 && !(counter % 2 == 0))
                 {
-                    liczba = licznik;
-                    Console.WriteLine(liczba);
+                    number = counter;
+                    Console.WriteLine(number);
                 }
-                licznik--;
-            } while (licznik >= 1);
+                counter--;
+            } while (counter >= 1);
         }
     }
 }

@@ -6,29 +6,29 @@ namespace Table
     {
         static void Main(string[] args)
         {
-            int[][] tab = new int[4][];
-            int licznik = 1;
-            int licznik2 = 10;
+            int[][] table = new int[4][];
+            int firstCounter = 1;
+            int secondCounter = 10;
 
             for (int i = 0; i < 4; i++)
             {
-                tab[i] = new int[licznik];
-                licznik = licznik + 1;
+                table[i] = new int[firstCounter];
+                firstCounter = firstCounter + 1;
             }
 
-            for (int i = 0; i < tab.Length; i++)
+            for (int i = 0; i < table.Length; i++)
             {
-                for (int j = 0; j < tab[i].Length; j++)
+                for (int j = 0; j < table[i].Length; j++)
                 {
-                    tab[i][j] = licznik2--;
+                    table[i][j] = secondCounter--;
                 }
             }
 
-            for (int i = 0; i < tab.Length; i++)
+            for (int i = 0; i < table.Length; i++)
             {
-                for (int j = 0; j < tab[i].Length; j++)
+                for (int j = 0; j < table[i].Length; j++)
                 {
-                    Console.Write(tab[i][j] + "\n");
+                    Console.Write(table[i][j] + "\n");
                 }
             }
         }
