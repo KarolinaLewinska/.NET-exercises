@@ -14,7 +14,7 @@ namespace PiMonteCarlo
             string pathOfFile = @"C:\Users\lewin\AppData\Local\Temp\pi_estimation.txt";
             Random random = new Random();
 
-            Console.WriteLine("Write number of random userPoints ");
+            Console.WriteLine("Write number of random userPoints");
             int userPoints = int.Parse(Console.ReadLine());
 
             try
