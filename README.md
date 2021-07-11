@@ -7,11 +7,11 @@
 
 **Overloading, Exception Handling:** <br/>
 - **ConstructorsOverloading.cs** - write a class which contains 2 fields: first - double type, second - char type. Add 5 overloaded constructors: first - receiving 1 double argument, second - 1 argument char type, third - 2 arguments: first double and second char, forth - 2 double arguments and it counts Euklides' NWD. Fifth constructor receives int table and counts sito of Erastotenes (prime numbers). In the main method use them and write out states of variables.<br/>
-- **Exceptions.cs** - write a program where will be selected 2 different exceptions (for exaample ArithmeticException and Exception).<br/>
-- **BubbleSort.cs** - write a program which takes from an user table with 10 integer numbers.Convey it to constructor which will sort it by bubble method and return it to the main method. Use try-catch to capture exceptions (for instance IndexOutOfRangeException).<br/>
+- **Exceptions.cs** - write a program which selects communications of ArithmeticException and Exception.<br/>
+- **BubbleSort.cs** - write a program which takes from an user table with 10 integer numbers. Convey table to a constructor which will sort it by bubble method. Return it to the main method. Use try-catch to capture exceptions (for instance IndexOutOfRangeException).<br/>
 
 **Input and Output Operations:**
-- **CaesarCipher.cs** - write a program which contains Caesar's cipher (modification by 1). It must cipher characters clicked directly from a keyboard.<br/>
+- **CaesarCipher.cs** - write a program which contains Caesar's cipher (modification by 1). It must cipher characters pressed directly from a keyboard.<br/>
 - **QuadraticEquation.cs** - write a program which resolves quadratic equation. Parameters must come from an user's input.<br/>
 - **PrimeNumbers.cs** - write a program which lets an user type numbers separated by a comma and displays only prime numbers from them.<br/>
 
