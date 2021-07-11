@@ -12,8 +12,8 @@ namespace NWWInterface
             int firstUserNumber = int.Parse(Console.ReadLine());
             int secondUserNumber = int.Parse(Console.ReadLine());
             
-            nww.x = firstUserNumber;
-            nww.y = secondUserNumber;
+            nww.firstNumber = firstUserNumber;
+            nww.secondNumber = secondUserNumber;
             nww.countNWW(firstUserNumber, secondUserNumber);
         }
     }
@@ -21,7 +21,7 @@ namespace NWWInterface
     internal class NWWAlgorithm : NWWInterface
     {
         private int firstNumber, secondNumber, nwd, nww;
-        public int x
+        public int firstNumber
         {
             get
             {
@@ -33,7 +33,7 @@ namespace NWWInterface
             }
         }
 
-        public int y
+        public int secondNumber
         {
             get
             {
@@ -64,13 +64,13 @@ namespace NWWInterface
 
     internal interface NWWInterface
     {
-        int x
+        int firstNumber
         {
             get;
             set;
         }
 
-        int y
+        int secondNumber
         {
             get;
             set;
