@@ -1,18 +1,18 @@
 # Console Apps
 
 **Loops and tables:** <br/>
-**Divisible.cs** - write program which selects numbers from 100 to 1 in descending order. They must be divisible by 3, but indivisible by 2. Use 3 types of loops (for, while, do..while). <br/>
+**Divisible.cs** - write a program which selects numbers from 100 to 1 in descending order. They must be divisible by 3, but indivisible by 2. Use 3 types of loops (for, while, do..while). <br/>
 
  **Table.cs** - create an int table and fill it with decreasing values from 10 to 1. In order to make it use for loop. <br/>
 
 **FibonacciTable.cs** - create a two-dimensional table where values come from the Fibonacci sequence and display it.<br/>
 
 **Overloading, exceptions:** <br/>
-1. Napisz klasę zawierającą dwa pola: pierwsze typu double i drugie typu char(np. liczba i znak). Dopisz pięć przeciążonych konstruktorów: pierwszy przyjmujący jeden argument typu double, drugi przyjmujący jeden argument typu char, trzeci przyjmujący dwa argumenty — pierwszy typu double, drugi typu char — i czwarty przyjmujący również dwa argumenty typu typu double. Czwarty konstruktor niech liczy NWD Euklidesa. Piąty konstruktor (przyjmuje tablice int) Sito Erastotenesa – liczby pierwsze. Użyj  słowo kluczowe this. Wywołaj konstruktory w metodzie main(), wypisz stan zmiennych każdego konstruktora.<br/>
+**ConstructorsOverloading.cs** - write a class which contains 2 fields: first - double type, second - char type. Add 5 overloaded constructors: first - receiving 1 double argument, second - 1 argument char type, third - 2 arguments: first double and second char, forth - 2 double arguments and it counts Euklides' NWD. Fifth constructor receives int table and counts sito of Erastotenes (prime numbers). In the main method use them and write out states of variables.<br/>
 
-2. Napisz przykładowy program, w którym zostaną wygenerowane dwa różne wyjątki (ArithmeticException, Exception). Wyświetl na ekranie dwa systemowe komunikaty.<br/>
+**Exceptions.cs** - write a program where will be selected 2 different exceptions (for exaample ArithmeticException and Exception).<br/>
 
-3. Napisz program, który pobierze od użytkownika tablice 10 liczb całkowitych. Przekaz tablicę do konstruktora, który posortuje tablicę metodą bąbelkową, i zwróci tablicę do metody main(). Wykorzystaj konstrukcję try – catch (np. przekroczenie zakresu tablicy).<br/>
+**bubbleSort.cs** - write a program which takes from an user table with 10 integer numbers. Przekaz tablicę do konstruktora, który posortuje tablicę metodą bąbelkową, i zwróci tablicę do metody main(). Wykorzystaj konstrukcję try – catch (np. przekroczenie zakresu tablicy).<br/>
 
 **Operacje wejścia i wyjścia:**
 1. Napisz program, który będzie realizował tzw. szyfr Cezara (modyfikacja o 1) działający na znakach wprowadzanych bezpośrednio z klawiatury. Naciśnięcie klawisza odpowiadającego literze ma powodować pojawianie się litery o podany przez użytkownika kluczu. Możesz ograniczyć się do przekodowywania tylko małych liter z alfabetu łacińskiego. (q lub escape kończy działanie).<br/>
