@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LiczbyPierwsze
+namespace PrimeNumbers
 {
     class Program
     {
