@@ -1,13 +1,13 @@
 # Console Apps
 
 **Loops and tables:** <br/>
-1. Write program which selects numbers from 100 to 1 in descending order. They must be divisible by 3, but indivisible by 2. Use 3 types of loops (for, while, do..while). <br/>
+**Divisible.cs** - write program which selects numbers from 100 to 1 in descending order. They must be divisible by 3, but indivisible by 2. Use 3 types of loops (for, while, do..while). <br/>
 
-2. Create an int table and fill it with decreasing values from 10 to 1. In order to make it use for loop. <br/>
+ **Table.cs** - create an int table and fill it with decreasing values from 10 to 1. In order to make it use for loop. <br/>
 
-3. Create a two-dimensional table where values come from the Fibonacci sequence and display it.<br/>
+**FibonacciTable.cs** - create a two-dimensional table where values come from the Fibonacci sequence and display it.<br/>
 
-**Przeciążanie konstruktorów, wyjątki:** <br/>
+**Overloading, exceptions:** <br/>
 1. Napisz klasę zawierającą dwa pola: pierwsze typu double i drugie typu char(np. liczba i znak). Dopisz pięć przeciążonych konstruktorów: pierwszy przyjmujący jeden argument typu double, drugi przyjmujący jeden argument typu char, trzeci przyjmujący dwa argumenty — pierwszy typu double, drugi typu char — i czwarty przyjmujący również dwa argumenty typu typu double. Czwarty konstruktor niech liczy NWD Euklidesa. Piąty konstruktor (przyjmuje tablice int) Sito Erastotenesa – liczby pierwsze. Użyj  słowo kluczowe this. Wywołaj konstruktory w metodzie main(), wypisz stan zmiennych każdego konstruktora.<br/>
 
 2. Napisz przykładowy program, w którym zostaną wygenerowane dwa różne wyjątki (ArithmeticException, Exception). Wyświetl na ekranie dwa systemowe komunikaty.<br/>
